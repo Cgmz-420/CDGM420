@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(242, 244, 245);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    text-align: center;
+    background-color: rgba(214, 230, 242);
+    color: rgb(36, 107, 150);
+}
+
+.imagen{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#secreto{
+    background-color: rgb(172, 214, 240);
+    color: rgb(22, 85, 126);
+    text-align: center;
+}
+
+.verde{
+
+    background-color: rgb(212, 245, 226);
+    color: rgb(16, 84, 48);
+    font-size: 14px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(106, 106, 106);
+    text-align: center;
+}

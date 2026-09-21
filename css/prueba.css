@@ -1,0 +1,34 @@
+/*
+    Sintantix del CSS es:
+
+    Selector
+        {
+            propiedad:valor;
+        }
+
+    Selector: Es la o las etiquetas de HTML que quiero modificar y hay 3 tipos de selector:
+    TIPOS DE SELECTORES
+    1) De etiquetas: Llamamos a TODAS las mismas etiquetas que están en el HTML, quiere decir, ejemplo: Puedo modificar todas las etiquetas <p> de mi HTML
+
+    2) Selector de ID
+
+    3) Selector de clase: Este me permite darle propiedades a varias etiquetas que tengan las mismas cualidades, estas etiquetas no tienen que ser del mismo tipo, es decir, puedo aplicar la misma la misma clase a una <p> y a un <h1> Si van a ser exactamente iguales. Una etiqueta puede tener muchas clases
+*/
+p{
+    color: black; /* Color  de la letra */
+    font-size: 23px; /* Sirve para el tamaño del texto*/
+    text-align: center; /* Sirve para el margen*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /**/
+}
+
+.titulo1{
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  background-image: url(img/odisea.jpg);
+}
+
+
